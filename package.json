@@ -14,7 +14,17 @@
   },
   "homepage": "https://github.com/walinejs/netlify-starter#readme",
   "dependencies": {
-    "@waline/vercel": "^1.31.9",
+    "@waline/vercel": "1.43.4",
     "serverless-http": "^4.0.0"
+  },
+  "overrides": {
+    "@mdit/plugin-emoji": "file:./plugin-emoji-cjs-1.0.0.tgz",
+    "@mathjax/src": "file:./empty-stub-1.0.0.tgz",
+    "@mathjax/mathjax-newcm-font": "file:./empty-stub-1.0.0.tgz",
+    "@mathjax/mathjax-tex-font": "file:./empty-stub-1.0.0.tgz",
+    "speech-rule-engine": "file:./empty-stub-1.0.0.tgz",
+    "leancloud-storage": "file:./empty-stub-1.0.0.tgz",
+    "leancloud-realtime": "file:./empty-stub-1.0.0.tgz",
+    "jsdom": "26.1.0"
   }
 }
