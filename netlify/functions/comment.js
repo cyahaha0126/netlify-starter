@@ -1,3 +1,4 @@
+process.env._HANDLER = 'comment.handler';
 const http = require('http');
 const Waline = require('@waline/vercel');
 const serverless = require('serverless-http');
